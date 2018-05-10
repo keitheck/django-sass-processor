@@ -216,7 +216,7 @@ COMPRESS_JINJA2_GET_ENVIRONMENT = environment
 ```django
 {% load sass_tags %}
 
-<link href="{% sass_src 'myapp/css/mystyle.scss' %}" rel="stylesheet" type="text/css" />
+<link href="{% sass_src 'myapp/css/_mystyle.scss' %}" rel="stylesheet" type="text/css" />
 ```
 
 The above template code will be rendered as HTML
